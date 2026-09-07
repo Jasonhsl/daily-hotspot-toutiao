@@ -1,0 +1,7 @@
+interface:
+  display_name: "头条深度文章与自动发布"
+  short_description: "核实当日选题，打磨清晰标题与原创文章，生成图文DOCX并按授权发布。"
+  default_prompt: "Use $daily-hotspot-toutiao to create one evidence-backed illustrated DOCX article and publish when authorized, using the shared ledger to prevent duplicate submissions."
+
+policy:
+  allow_implicit_invocation: true
